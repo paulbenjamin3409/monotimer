@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoTimer", "MonoTimer\MonoTimer.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTimer.Droid", "MonoTimer.Droid\MonoTimer.Droid.csproj", "{6E50175C-369F-408A-90FA-F24D5B84BF97}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MonoTimer\MonoTimer.projitems*{6e50175c-369f-408a-90fa-f24d5b84bf97}*SharedItemsImports = 4
+		MonoTimer\MonoTimer.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E50175C-369F-408A-90FA-F24D5B84BF97}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D13002F-9F4E-447A-811F-9EC2F1CF1335}
+	EndGlobalSection
+EndGlobal
