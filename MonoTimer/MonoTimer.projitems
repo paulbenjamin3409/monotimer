@@ -9,12 +9,18 @@
     <Import_RootNamespace>MonoTimer</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Content\IBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Content\Button.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Content\Sprite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Content\" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
   </ItemGroup>
- </Project>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\gear.png" />
+  </ItemGroup>
+</Project>
